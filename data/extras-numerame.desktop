@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=numerame
+Comment=Un convertidor de números a letras
+Comment[es]=Un convertidor de números a letras
+GenericName=numerame
+Terminal=false
+Icon=/opt/extras.ubuntu.com/numerame/share/icons/numerame.svg
+Type=Application
+Exec=/opt/extras.ubuntu.com/numerame/bin/numerame
+Categories=GNOME;GTK;Application;Network;

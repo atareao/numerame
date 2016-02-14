@@ -1,0 +1,23 @@
+numerame (0.0.3.7-1ubuntu1) precise; urgency=low
+
+  * Fixed a bug with Launcher
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Sun, 24 Jun 2012 22:33:48 +0200
+
+numerame (0.0.3.6-1ubuntu1) precise; urgency=low
+
+  * Fixed a bug with package
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Sun, 24 Jun 2012 21:14:07 +0200
+
+numerame (0.0.3.5-1ubuntu1) precise; urgency=low
+
+  * Fixed a bug with package
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Sun, 24 Jun 2012 20:19:21 +0200
+
+numerame (0.0.3.4-1ubuntu1) precise; urgency=low
+
+  * First release
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Sun, 22 Jan 2012 22:00:22 +0100

@@ -1,0 +1,6 @@
+bin/numerame /opt/extras.ubuntu.com/numerame/bin
+src/numerame.py /opt/extras.ubuntu.com/numerame/share/numerame
+src/comun.py /opt/extras.ubuntu.com/numerame/share/numerame
+data/numerame.svg /opt/extras.ubuntu.com/numerame/share/icons
+data/extras-numerame.desktop /usr/share/applications
+debian/changelog /opt/extras.ubuntu.com/numerame/share/numerame
