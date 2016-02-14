@@ -1,5 +1,5 @@
-#!/usr/bin/env python
-# -*- coding: iso-8859-1 -*-
+#!/usr/bin/env python3
+# -*- coding: UTF-8 -*-
 #
 # <from numbers to letters.>
 #
@@ -7,7 +7,7 @@
 # lorenzo.carbonell.cerezo@gmail.com
 # Dario Villar <dario.villar.v@gmail.com>
 #
-# Incluye la modificaci髇 de los decimales para que cuando haya cero,
+# Incluye la modificaci贸n de los decimales para que cuando haya cero,
 # aparezca reflejado
 #
 # This program is free software: you can redistribute it and/or modify
@@ -214,7 +214,7 @@ def lee_numero(number):
         if int(parte_izquierda) == 0:
             numero_leido = lee_numero(parte_derecha)
         elif int(parte_izquierda) == 1:
-            numero_leido = 'un mill髇 ' + lee_numero(parte_derecha)
+            numero_leido = 'un mill贸n ' + lee_numero(parte_derecha)
         elif int(parte_izquierda) > 1:
             numero_leido = lee_numero(
                 parte_izquierda) + ' millones ' + lee_numero(parte_derecha)
@@ -224,7 +224,7 @@ def lee_numero(number):
         if int(parte_izquierda) == 0:
             numero_leido = lee_numero(parte_derecha)
         elif int(parte_izquierda) == 1:
-            numero_leido = 'un bill髇 ' + lee_numero(parte_derecha)
+            numero_leido = 'un bill贸n ' + lee_numero(parte_derecha)
         elif int(parte_izquierda) > 1:
             numero_leido = lee_numero(
                 parte_izquierda) + ' billones ' + lee_numero(parte_derecha)
@@ -234,7 +234,7 @@ def lee_numero(number):
         if int(parte_izquierda) == 0:
             numero_leido = lee_numero(parte_derecha)
         elif int(parte_izquierda) == 1:
-            numero_leido = 'un trill髇 ' + lee_numero(parte_derecha)
+            numero_leido = 'un trill贸n ' + lee_numero(parte_derecha)
         elif int(parte_izquierda) > 1:
             numero_leido = lee_numero(
                 parte_izquierda) + ' trillones ' + lee_numero(parte_derecha)
@@ -244,7 +244,7 @@ def lee_numero(number):
         if int(parte_izquierda) == 0:
             numero_leido = lee_numero(parte_derecha)
         elif int(parte_izquierda) == 1:
-            numero_leido = 'un cuatrill髇 ' + lee_numero(parte_derecha)
+            numero_leido = 'un cuatrill贸n ' + lee_numero(parte_derecha)
         elif int(parte_izquierda) > 1:
             numero_leido = lee_numero(
                 parte_izquierda) + ' cuatrillones ' + lee_numero(parte_derecha)
@@ -254,7 +254,7 @@ def lee_numero(number):
         if int(parte_izquierda) == 0:
             numero_leido = lee_numero(parte_derecha)
         elif int(parte_izquierda) == 1:
-            numero_leido = 'un quintill髇 ' + lee_numero(parte_derecha)
+            numero_leido = 'un quintill贸n ' + lee_numero(parte_derecha)
         elif int(parte_izquierda) > 1:
             numero_leido = lee_numero(parte_izquierda) + ' quintillones ' +\
                 lee_numero(parte_derecha)
@@ -320,7 +320,7 @@ def lee_numerof(number):
         if int(parte_izquierda) == 0:
             numero_leido = lee_numerof(parte_derecha)
         elif int(parte_izquierda) == 1:
-            numero_leido = 'un mill髇 ' + lee_numerof(parte_derecha)
+            numero_leido = 'un mill贸n ' + lee_numerof(parte_derecha)
         elif int(parte_izquierda) > 1:
             numero_leido = lee_numerof(parte_izquierda) + ' millones ' +\
                 lee_numerof(parte_derecha)
@@ -330,7 +330,7 @@ def lee_numerof(number):
         if int(parte_izquierda) == 0:
             numero_leido = lee_numerof(parte_derecha)
         elif int(parte_izquierda) == 1:
-            numero_leido = 'un bill髇 ' + lee_numerof(parte_derecha)
+            numero_leido = 'un bill贸n ' + lee_numerof(parte_derecha)
         elif int(parte_izquierda) > 1:
             numero_leido = lee_numerof(parte_izquierda) + ' billones ' +\
                 lee_numerof(parte_derecha)
@@ -340,7 +340,7 @@ def lee_numerof(number):
         if int(parte_izquierda) == 0:
             numero_leido = lee_numerof(parte_derecha)
         elif int(parte_izquierda) == 1:
-            numero_leido = 'un trill髇 ' + lee_numerof(parte_derecha)
+            numero_leido = 'un trill贸n ' + lee_numerof(parte_derecha)
         elif int(parte_izquierda) > 1:
             numero_leido = lee_numerof(parte_izquierda) + ' trillones ' +\
                 lee_numerof(parte_derecha)
@@ -350,7 +350,7 @@ def lee_numerof(number):
         if int(parte_izquierda) == 0:
             numero_leido = lee_numerof(parte_derecha)
         elif int(parte_izquierda) == 1:
-            numero_leido = 'un cuatrill髇 ' + lee_numerof(parte_derecha)
+            numero_leido = 'un cuatrill贸n ' + lee_numerof(parte_derecha)
         elif int(parte_izquierda) > 1:
             numero_leido = lee_numerof(parte_izquierda) + ' cuatrillones ' +\
                 lee_numerof(parte_derecha)
@@ -360,7 +360,7 @@ def lee_numerof(number):
         if int(parte_izquierda) == 0:
             numero_leido = lee_numerof(parte_derecha)
         elif int(parte_izquierda) == 1:
-            numero_leido = 'un quintill髇 ' + lee_numerof(parte_derecha)
+            numero_leido = 'un quintill贸n ' + lee_numerof(parte_derecha)
         elif int(parte_izquierda) > 1:
             numero_leido = lee_numerof(parte_izquierda) +\
                 ' quintillones ' + lee_numerof(parte_derecha)
@@ -399,7 +399,7 @@ class CM(Gtk.Dialog):
         self.hbox1.set_border_width(5)
         self.vbox1.add(self.hbox1)
         #
-        self.label = Gtk.Label(fi2u('N鷐ero:'))
+        self.label = Gtk.Label(fi2u('N煤mero:'))
         self.hbox1.pack_start(self.label, False, False, 0)
         #
         self.entry = Gtk.Entry()
@@ -428,7 +428,7 @@ class CM(Gtk.Dialog):
         ad.set_name(APPNAME)
         ad.set_version(VERSION)
         ad.set_copyright('Copyrignt (c) 2011-2016\nLorenzo Carbonell')
-        ad.set_comments('Una aplicaci髇 para pasar de n鷐eros a letras')
+        ad.set_comments('Una aplicaci贸n para pasar de n煤meros a letras')
         ad.set_license('''
 This program is free software: you can redistribute it and/or modify it under
 the terms of the GNU General Public License as published by the Free Software
@@ -464,7 +464,7 @@ this program. If not, see <http://www.gnu.org/licenses/>.
                 number = lee_numero(entero[0]) + ' con '
                 while(len(entero[1]) > 0 and entero[1][0] == '0'):
                     '''
-                    la cadena de decimales es la que hab憝a quitando el primer
+                    la cadena de decimales es la que hab铆颅a quitando el primer
                     cero ya que ya fue anadido a la cadena number
                     '''
                     entero[1] = (entero[1])[1:len(entero[1])]
