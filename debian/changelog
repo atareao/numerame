@@ -1,3 +1,9 @@
+numerame (0.0.3.8-1ubuntu0) wily; urgency=medium
+
+  * Added a new launcher
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Sun, 14 Feb 2016 18:07:34 +0100
+
 numerame (0.0.3.7-1ubuntu1) precise; urgency=low
 
   * Fixed a bug with Launcher
